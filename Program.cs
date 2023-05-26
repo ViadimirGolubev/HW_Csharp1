@@ -40,10 +40,27 @@ Console.WriteLine("Введите 3 число");
 
 int num3=Convert.ToInt32(Console.ReadLine());
 
+int max=num1;
 
+if (max>num2)
+{
+    max=max;
+}
+else
+{
+    max=num2;
+}
 
-
-
+else if (max>num3)
+{
+     max=max;
+    Console.WriteLine(max);
+}
+else
+{
+    max=num3;
+    Console.WriteLine(max);
+}
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 // 4 -> да
 // -3 -> нет
