@@ -36,18 +36,21 @@ Console.WriteLine("Введите 2 число");
 
 int num2=Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Введите 3 число");
+
+int num3=Convert.ToInt32(Console.ReadLine());
+
 int max=num1;
 
-if (max>num2)
-{
-    max=max;
-    Console.WriteLine(max);
-}
-else
+if (num2>max)
 {
     max=num2;
-   Console.WriteLine(max);
 }
+if (num3>max)
+{
+    max=num3;
+}
+Console.WriteLine("max=" +max);
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 // 4 -> да
